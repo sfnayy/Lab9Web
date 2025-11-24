@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #bbb;
+}
+
+th {
+  background: #006eff;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+td img {
+  border-radius: 4px;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+tr:hover {
+  background: #e6f0ff;
+}

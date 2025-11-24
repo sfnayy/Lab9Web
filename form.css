@@ -1,0 +1,36 @@
+form {
+  width: 60%;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 3px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #006eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0053c7;
+}
